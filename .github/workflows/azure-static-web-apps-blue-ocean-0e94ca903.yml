@@ -25,7 +25,7 @@ jobs:
           dotnet-version: 3.1.301
           
       - name: Build App
-        run: dotnet publish \"Jitsi Helper" -c Release -o published
+        run: dotnet publish ./'Jitsi Helper' -c Release -o published
         
       - name: Build And Deploy
         id: builddeploy
